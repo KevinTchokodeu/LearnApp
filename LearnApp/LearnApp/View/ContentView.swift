@@ -4,24 +4,18 @@
 //
 //  Created by Kevin Tchokodeu on 29.01.20.
 //  Copyright © 2020 Kevin Tchokodeu. All rights reserved.
-// Link: https://developer.apple.com/tutorials/swiftui/
+//  Link: https://developer.apple.com/tutorials/swiftui/
 //
 
 import SwiftUI
 
-
 struct ContentView: View {
     @State private var selection = 0 // the tag value
-    
     var body: some View {
         
         TabView(selection: $selection){
             // left
-            VStack{
-                Image("NeueltLogo")
-                Text("enter your text hier")
-                    .font(.title)
-            }
+            InputView()
             .tabItem {
                 VStack {
                     Image("first")
@@ -32,10 +26,7 @@ struct ContentView: View {
             
                   
             // middle
-            VStack{
-                Text("Learn the entered text")
-                    .font(.title)
-            }
+            LearnView()
             .tabItem {
                 VStack {
                     Image("second")
@@ -45,10 +36,7 @@ struct ContentView: View {
             .tag(1)
             
             
-            VStack{
-                Text("Quiz")
-                    .font(.title)
-            }
+            QuizView()
             .tabItem{
                 VStack{
                     Image("first")
