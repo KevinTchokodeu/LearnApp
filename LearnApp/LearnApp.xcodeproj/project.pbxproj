@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A662B3523F4BA7E0091408A /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A662B3423F4BA7E0091408A /* NavigationConfigurator.swift */; };
+		0A662B3723F4BC820091408A /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A662B3623F4BC820091408A /* InputField.swift */; };
 		0AB6F26723E1CF1800391B9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6F26623E1CF1800391B9F /* AppDelegate.swift */; };
 		0AB6F26923E1CF1800391B9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6F26823E1CF1800391B9F /* SceneDelegate.swift */; };
 		0AB6F26B23E1CF1800391B9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6F26A23E1CF1800391B9F /* ContentView.swift */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A662B3423F4BA7E0091408A /* NavigationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationConfigurator.swift; sourceTree = "<group>"; };
+		0A662B3623F4BC820091408A /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
 		0AB6F26323E1CF1800391B9F /* LearnApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB6F26623E1CF1800391B9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AB6F26823E1CF1800391B9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A662B3323F4BA2E0091408A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0A662B3423F4BA7E0091408A /* NavigationConfigurator.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		0AB6F25A23E1CF1800391B9F = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +123,7 @@
 		0AB6F26523E1CF1800391B9F /* LearnApp */ = {
 			isa = PBXGroup;
 			children = (
+				0A662B3323F4BA2E0091408A /* Helper */,
 				0AF87F8F23EDC97700321DA5 /* View */,
 				0AB6F26623E1CF1800391B9F /* AppDelegate.swift */,
 				0AB6F26C23E1CF2300391B9F /* Assets.xcassets */,
@@ -155,6 +168,7 @@
 				0AF87F9423F304DD00321DA5 /* InputView.swift */,
 				0AF87F9823F3050400321DA5 /* LearnView.swift */,
 				0AF87F9C23F3051B00321DA5 /* QuizView.swift */,
+				0A662B3623F4BC820091408A /* InputField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,7 +309,9 @@
 				0AF87F9523F304DD00321DA5 /* InputView.swift in Sources */,
 				0AB6F26923E1CF1800391B9F /* SceneDelegate.swift in Sources */,
 				0AB6F26B23E1CF1800391B9F /* ContentView.swift in Sources */,
+				0A662B3523F4BA7E0091408A /* NavigationConfigurator.swift in Sources */,
 				0AF87F9D23F3051B00321DA5 /* QuizView.swift in Sources */,
+				0A662B3723F4BC820091408A /* InputField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
