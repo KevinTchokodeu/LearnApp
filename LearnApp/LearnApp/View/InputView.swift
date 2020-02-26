@@ -29,10 +29,11 @@ struct InputView: View{
             .navigationBarTitle("Scan or Write", displayMode: .inline)
             .background(NavigationConfigurator { nc in
                 nc.navigationBar.barTintColor = .green
+                nc.barHideOnSwipeGestureRecognizer.maximumNumberOfTouches = 2
                 nc.navigationBar.titleTextAttributes = [.foregroundColor : UIColor.black]
             })
-            .navigationViewStyle(StackNavigationViewStyle())
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

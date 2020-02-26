@@ -8,6 +8,9 @@
 //
 
 import SwiftUI
+class AppState: ObservableObject {
+    @Published var value: Int = 0
+}
 
 struct ContentView: View {
     @State private var selection = 0 // the tag value
@@ -20,27 +23,30 @@ struct ContentView: View {
                 VStack {
                     Image("first")
                     Text("scan/write")
+                    .foregroundColor(.green)
                 }
             }
             .tag(0)
             
-                  
             // middle
             LearnView()
             .tabItem {
                 VStack {
                     Image("second")
                     Text("learn")
+                    .foregroundColor(.red)
                 }
             }
             .tag(1)
             
-            
+            // right
             QuizView()
             .tabItem{
                 VStack{
                     Image("first")
+                        .foregroundColor(.yellow)
                     Text("test yourself")
+                    .foregroundColor(.yellow)
                 }
             }
             .tag(2)

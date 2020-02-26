@@ -6,6 +6,11 @@
 //  Copyright © 2020 Kevin Tchokodeu. All rights reserved.
 //
 
+/*
+ A struct to allow personalization of Navigation View.
+ 
+ **/
+
 import UIKit
 import SwiftUI
 

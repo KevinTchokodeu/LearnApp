@@ -28,8 +28,8 @@ struct LearnView: View{
                 nc.navigationBar.barTintColor = .red
                 nc.navigationBar.titleTextAttributes = [.foregroundColor : UIColor.black]
             })
-            .navigationViewStyle(StackNavigationViewStyle())
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

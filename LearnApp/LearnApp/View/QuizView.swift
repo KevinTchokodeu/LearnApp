@@ -14,22 +14,22 @@ struct QuizView: View{
         NavigationView{
             VStack{
                 InputField()
-                .offset(x: 0, y: change ? 1000 : 0)
+                .offset(x: 0, y: change ? 900 : 0)
                 .animation(Animation.easeOut)
                 .scaledToFit()
                 .foregroundColor(.yellow)
         
-                Text("Quiz")
+                Text("quiz")
                     .font(.title)
+                    .foregroundColor(.yellow)
             }
-            .navigationBarTitle("Quiz", displayMode: .inline)
+            .navigationBarTitle("quiz", displayMode: .inline)
             .background(NavigationConfigurator { nc in
                 nc.navigationBar.barTintColor = .yellow
                 nc.navigationBar.titleTextAttributes = [.foregroundColor : UIColor.black]
             })
         }
         .navigationViewStyle(StackNavigationViewStyle())
-
     }
 }
 

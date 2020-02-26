@@ -96,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				0A662B3423F4BA7E0091408A /* NavigationConfigurator.swift */,
+				0A662B3623F4BC820091408A /* InputField.swift */,
+				0AB6F26823E1CF1800391B9F /* SceneDelegate.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -164,11 +166,9 @@
 			isa = PBXGroup;
 			children = (
 				0AB6F26A23E1CF1800391B9F /* ContentView.swift */,
-				0AB6F26823E1CF1800391B9F /* SceneDelegate.swift */,
 				0AF87F9423F304DD00321DA5 /* InputView.swift */,
 				0AF87F9823F3050400321DA5 /* LearnView.swift */,
 				0AF87F9C23F3051B00321DA5 /* QuizView.swift */,
-				0A662B3623F4BC820091408A /* InputField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
